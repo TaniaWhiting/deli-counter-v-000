@@ -4,7 +4,7 @@ def line (katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else
-     last_person = katz_deli.shift
+     last_person = katz_deli.pop
      line_array = []
      line_array = katz_deli.each_with_index do |name, index|
         "#{index + 1}. #{name} " 
