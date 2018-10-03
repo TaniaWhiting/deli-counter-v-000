@@ -7,7 +7,7 @@ end
 
 def take_a-number (katz_deli, name)
   katz_deli.unshift(name)
-  place_in_line = katz_deli[name] + 1
+  place_in_line = katz_deli.size
   puts "Welcome, #{name}. You are number #{place_in_line} in line."
 end
 
