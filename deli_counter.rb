@@ -6,7 +6,7 @@ def line (katz_deli)
   else
      last_person = katz_deli.shift
      line_array = []
-     line_array = katz.deli.each do |name|
+     line_array = katz_deli.each do |name|
         "#{index + 1}. #{name} " 
      end
      puts "The line is currently: #{line_array.join} #{last_person}"
