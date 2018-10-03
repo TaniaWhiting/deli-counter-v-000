@@ -7,7 +7,7 @@ def line (katz_deli)
      last_person = katz_deli.pop
      line_array = []
      line_array = katz_deli
-     end
+     
      puts "The line is currently: #{line_array.join(" ")} #{last_person}"
   end
 end
