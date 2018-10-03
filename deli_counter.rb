@@ -4,13 +4,12 @@ def line (katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else
-     puts "The line is currently: "
      last_person = katz_deli.shift
      line_array = []
      line_array = katz.deli.each do |name|
         "#{index + 1}. #{name} " 
      end
-     puts "#{line_array.join} #{last_person}"
+     puts "The line is currently: #{line_array.join} #{last_person}"
   end
 end
 
