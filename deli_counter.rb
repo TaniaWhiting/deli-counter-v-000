@@ -9,7 +9,7 @@ def line (katz_deli)
      katz_deli.each_with_index do |name, index|
        line_array[index] = "#{index + 1}.  #{name}"
      end
-     puts "The line is currently: #{line_array.join} #{line_array.size + 1}. #{last_person}"
+     puts "The line is currently: #{line_array.join(" ")} #{line_array.size + 1}. #{last_person}"
   end
 end
 
