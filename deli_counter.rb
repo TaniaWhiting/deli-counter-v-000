@@ -1,8 +1,14 @@
 katz_deli = []
 
 def line (katz_deli)  
-  shows line in place
+  if katz_deli == []
   "The line is currently empty."
+  else
+     puts "The line is currently: "
+     katz.deli.each_with_index do |name, index|
+     "#{index}. #{name} " 
+  end
+
 end
 
 def take_a-number (katz_deli, name)
