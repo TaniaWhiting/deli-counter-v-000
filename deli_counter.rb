@@ -7,8 +7,7 @@ end
 
 def take_a-number (katz_deli, name)
   katz_deli.unshift(name)
-  place_in_line = katz_deli.size
-  puts "Welcome, #{name}. You are number #{place_in_line} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
 
 def now_serving (katz_deli)
