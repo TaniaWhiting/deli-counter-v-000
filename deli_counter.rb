@@ -7,7 +7,7 @@ def line (katz_deli)
      last_person = katz_deli.pop
      line_array = []
      katz_deli.each_with_index do |name, index|
-       line_array = "#{index + 1}  #{name}"
+       line_array[index] = "#{index + 1}  #{name}"
      end
      puts "The line is currently: #{line_array.join(" ")} #{last_person}"
   end
